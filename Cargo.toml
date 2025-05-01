@@ -3,7 +3,7 @@ resolver = "2"
 members = ["common", "backend", "axis/*", "crayon/*"]
 
 [workspace.dependencies]
-tokio = { version = "1.43", features = ["full"] }
+tokio = { version = "1.44", features = ["full"] }
 uuid = { version = "1.12", features = ["v5", "v7", "fast-rng", "serde"] }
 time = { version = "0.3" }
 serde_json = { version = "1.0" }
