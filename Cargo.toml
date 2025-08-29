@@ -32,7 +32,7 @@ axum = { version = "0.8.1", features = ["http2", "ws"] }
 clap = { version = "4.5.27", features = ["derive", "env"] }
 toml = { version = "0.8.19" }
 tracing = { version = "0.1.41", features = ["release_max_level_info"] }
-tracing-subscriber = { version = "0.3.19" }
+tracing-subscriber = { version = "0.3.20" }
 futures = { version = "0.3.31" }
 kstring = { version = "2.0.2", features = ["serde"] }
 redis = { version = "0.28.2", features = ["tokio-comp", "uuid", "json"] }
